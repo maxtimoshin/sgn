@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "KyivSans";
+    src: url("../fonts/KyivType-NoVariable/WEB/KyivTypeSans-Regular3.eot") format("eot"),
+        url("../fonts/KyivType-NoVariable/WEB/KyivTypeSans-Regular3.woff") format("woff"),
+        url("../fonts/KyivType-NoVariable/WEB/KyivTypeSans-Regular3.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "KyivSans";
+    src: url("../fonts/KyivType-NoVariable/WEB/KyivTypeSans-Bold3.eot") format("eot"),
+        url("../fonts/KyivType-NoVariable/WEB/KyivTypeSans-Bold3.woff") format("woff"),
+        url("../fonts/KyivType-NoVariable/WEB/KyivTypeSans-Bold3.woff2") format("woff2");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "KyivSans";
+    src: url("../fonts/KyivType-NoVariable/WEB/KyivTypeTitling-Light3.eot") format("eot"),
+        url("../fonts/KyivType-NoVariable/WEB/KyivTypeSans-Light3.woff") format("woff"),
+        url("../fonts/KyivType-NoVariable/WEB/KyivTypeSans-Light3.woff2") format("woff2");
+    font-style: normal;
+    font-weight: light;
+}

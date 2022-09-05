@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link type="image/x-icon" rel="shortcut icon" href="./img/favicons/32x32.ico">
+    <link type="image/png" sizes="16x16" rel="icon" href="/img/favicons/16x16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="/img/favicons/32x32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="/img/favicons/96x96.png">
+    <link type="image/png" sizes="120x120" rel="icon" href="/img/favicons/120x120.png">
+
+    <title>Shogun</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="modal">
+            <div class="modal-content">
+                <img class="modal-image" src="" alt="">
+            </div>
+        </div>
+        <header class="header">
+            <div class="inner-header">
+                <nav class="header-nav">
+                    <ul class="header-list">
+                        <li class="header-list-item about-project-btn"><a>про проєкт</a></li>
+                        <li class="header-list-item mechanic-btn"><a>підключення</a></li>
+                        <li class="header-list-item test-btn"><a>тест-період</a></li>
+                    </ul>
+                    <div class="logo"><a class="logo-btn"><img src="./img/header-logo.svg" alt="Shogun" /></a></div>
+                    <ul class="header-list">
+                        <li class="header-list-item results-btn"><a>результати</a></li>
+                        <li class="header-list-item prices-btn"><a>ціни</a></li>
+                        <li class="header-list-item instant-buy-btn"><a>придбати одразу</a></li>
+                    </ul>
+                    <div class="burger-menu">
+                        <div class="menu-icon">
+                            <span></span>
+                        </div>
+                        <nav class="menu-body">
+                            <nav class="menu-list">
+                                <ul>
+                                    <li class="menu-item">
+                                        <a class="about-project-btn">про проєкт</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="mechanic-btn">підключення</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="test-btn">тест-період</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="results-btn">результати</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="prices-btn">ціни</a>
+                                    </li>
+                                </ul>
+                                <div class="footer-form">
+                                    <form action="">
+                                        <input type="text" placeholder="номер телефону">
+                                        <input type="text" placeholder="ім’я">
+                                        <input type="text" placeholder="нік телеграм">
+                                        <div class="checkboxes">
+                                            <label class="container"><span>зателефонувати</span>
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container"><span>написати</span>
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <button type="submit">надіслати</button>
+                                    </form>
+                                </div>
+                            </nav>
+
+                        </nav>
+                    </div>
+                </nav>
+                <div class="header-content">
+                    <div class="left-header-block" data-aos="fade-right">
+                        <div class="left-header-content">
+                            <img class="rotating-text" src="./img/header-round-text.png" alt="" />
+                            <img class="header-samurai-moving" src="./img/header-samurai1.png" alt="" />
+                            <img class="header-laptop-moving" src="./img/header-laptop.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="right-header-block" data-aos="fade-left">
+                        <div class="header-title">Трейдинг за підпискою</div>
+                        <div class="header-sub-title">стратегія, індикатори, автотрейдинг</div>
+                        <div class="header-buttons">
+                            <button class="test-period-btn">тестовий період</button>
+                            <button class="buy-sub-btn">придбати одразу</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="inner-main">
+                <div class="about-us-container">
+                    <div class="left-about-us-container" data-aos="fade-right">
+                        <!-- <h2>SHOGUN</h2> -->
+                        <img src="./img/shogun-text.svg" alt="SHOGUN">
+                        <span>Це проєкт створений українськими ІТ-спеціалістами, враховуючи досвід 143 трейдерів з
+                            усього світу. Ми створили програмне забезпечення в якому поєднали: код, алгоритми, людський
+                            досвід та великі обчислювальні потужності</span>
+                        <div class="yellow-label">
+                            SHO по трейдингу?
+                        </div>
+                        <div class="yellow-label2">
+                            Можна більше не паритись!
+                        </div>
+                    </div>
+                    <div class="right-about-us-container" data-aos="fade-left">
+                        <img src="./img/samurai2.png" alt="Samurai">
+                    </div>
+                </div>
+                <div class="about-product-container">
+                    <div class="about-product-title" data-aos="fade-down">в результаті ми створили продукт, про який
+                        мріє весь ринок</div>
+                    <div class="about-product-blocks" data-aos="fade-up">
+                        <div class="about-product-block">
+                            <span>120+ торгових пар</span>
+                            <p>з можливістю налаштувати свої комбінації</p>
+                        </div>
+                        <div class="about-product-block">
+                            <span>програмне забезпечення + автотрейдинг</span>
+                            <p>проводить аналіз, створює гнучкі стратегії та проводить угоди замість тебе</p>
+                        </div>
+                        <div class="about-product-block">
+                            <span>фондові та крипто-ринки</span>
+                            <p>алгоритмічні стратегії, що працюють на обох ринках</p>
+                        </div>
+                        <div class="about-product-block">
+                            <span>захищені фінанси</span>
+                            <p>трейдинг відбувається на твоєму гаманці, до якого ми не маємо доступу</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="profit-container">
+                    <div class="left-profit-block" data-aos="fade-right">
+                        <span>Найголовніше:</span>
+                        <h3>від 1% до 5% в день</h3>
+                        <p>чистий приріст від “банку” в результаті торгів</p>
+                    </div>
+                    <div class="right-profit-block" data-aos="flip-right">
+                        <img src="./img/partner-star.png" alt="partner-star">
+                    </div>
+                </div>
+                <div class="indicators-container">
+                    <div class="indicators-title" data-aos="fade-down">як ми досягли цих показників?</div>
+                    <div class="indicators-subtitle" data-aos="fade-down">ми обчислили десятки гігабайт аналітичних
+                        даних та створили:</div>
+                    <div class="indicators-blocks" data-aos="fade-up">
+                        <div class="indicators-block">
+                            <img src="./img/samurai-benefits-icon.svg">
+                            <span>алгоритмічні стратегії, що адаптуються під ринок</span>
+                        </div>
+                        <div class="indicators-block">
+                            <img src="./img/samurai-benefits-icon.svg">
+                            <span>динамічну зміну беззбитковості, Stop-Loss, Take Profit та врахування
+                                ліквідацій</span>
+                        </div>
+                        <div class="indicators-block">
+                            <img src="./img/samurai-benefits-icon.svg">
+                            <span>можливість працювати на різних позиціях long/short</span>
+                        </div>
+                        <div class="indicators-block">
+                            <img src="./img/samurai-benefits-icon.svg">
+                            <span>регуляцію бюджету та роботу з ф’ючерсними торгами з плечем</span>
+                        </div>
+                        <div class="indicators-block">
+                            <img src="./img/samurai-benefits-icon.svg">
+                            <span>зробили розрахунок спредів та “прослизань” в усіх автоматичних угодах</span>
+                        </div>
+                        <img src="./img/wave.png" alt="" class="wave">
+                    </div>
+                </div>
+                <div class="scalping-container">
+                    <div class="marquee-infinite left">
+                        <div>
+                            <h1><span>турбо пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span></h1>
+                            <h1><span>турбо пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span></h1>
+                            <h1><span>турбо пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span></h1>
+                            <h1><span>турбо пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span></h1>
+
+                        </div>
+                    </div>
+                    <div class="scalping-content">
+                        <h4 data-aos="fade-down">автоматизований скальпінг тепер реальний</h4>
+                        <p data-aos="fade-down">ми <span>скоротили мінімальний час</span>,<br>
+                            що потрібен на угоди - <span>до 1 хвилини</span>,<br>
+                            а відсоток виграних угод становить в середньому 80%</p>
+                    </div>
+                    <div class="marquee-infinite right">
+                        <div>
+                            <h1><span>турбо пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span></h1>
+                            <h1><span>турбо пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span></h1>
+                            <h1><span>турбо пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span></h1>
+                            <h1><span>турбо пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span><span>турбо пушка</span><span>турбо
+                                    пушка</span><span>турбо пушка</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="deposite-container">
+                    <div class="left-deposite-container" data-aos="fade-right">
+                        <h5>Ще одна прикольна штука:</h5>
+                        <p>для твоєї зручності ми створили <span>телеграм бот</span>, який можна підключити через
+                            <span>Finandy</span>. БОт надсилає апдейти про кожну угоду, що відбувається
+                        </p>
+                    </div>
+                    <div class="right-deposite-container" data-aos="fade-left">
+                        <img src="./img/deposite-history.png" alt="Deposite History">
+                        <span>*це реальний скріншот з депозитом 900$</span>
+                    </div>
+                </div>
+                <div class="service-connection-container">
+                    <div class="service-connection-title" data-aos="fade-down">як підключити сервіс?</div>
+                    <div class="service-steps" data-aos="fade-up">
+                        <div class="step"><span>крок 1</span>
+                            <p>мати аккаунти: Binance, TradingView, Finandy</p>
+                        </div>
+                        <div class="step"><img src="./img/down-arrow.svg" alt="Arrow"><span>крок 2</span>
+                            <p>залишити заявку на сайті</p>
+                        </div>
+                        <div class="step"><span>крок 3</span>
+                            <p>дочекатись своєї черги на підключення та оплатити підписку</p><img
+                                src="./img/down-arrow.svg" style="transform:rotate(-90deg)" alt="Arrow">
+                        </div>
+                        <div class="step"><img src="./img/down-arrow.svg" alt="Arrow"><span>крок 4</span>
+                            <p>наш менеджер підключить твій акаунт через API</p>
+                        </div>
+                        <div class="step"><span>крок 5</span>
+                            <p>тобі потрібно підтвердити доступ до ведення торгів та заборонити доступ до фінансів,
+                                вводу та виведенню коштів з рахунку</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-period-container">
+                    <div class="left-test-period-container" data-aos="fade-right">безкоштовний<br> тестовий період 5
+                        днів</div>
+                    <div class="right-test-period-container">
+                        <p data-aos="fade-left">Ми даємо унікальну можливість за якою ти можеш залишити заявку на
+                            безкоштовний тестовий
+                            період тривалістю 5 днів та перевірити на собі, як працює сервіс*</p>
+                        <span data-aos="fade-left">*пропозиція обмежена, у зв’язку з великою кількістю бажаючих,
+                            підключення відбувається в
+                            порядку черги</span>
+                    </div>
+                </div>
+                <div class="form-container" data-aos="fade-down">
+                    <span>заповни форму нижче, якщо</span>
+                    <h5>готовий залишити заявку на підключення<br>
+                        тестового періоду?</h5>
+                    <form method="POST" action="">
+                        <input type="text" placeholder="номер телефону">
+                        <input type="text" placeholder="ім’я">
+                        <input type="text" placeholder="нік телеграм">
+                        <button type="submit">надіслати</button>
+                    </form>
+                </div>
+                <div class="results-container">
+                    <h4 data-aos="fade-down">для тих хто сумнівається</h4>
+                    <span data-aos="fade-down">скріни результатів наших клієнтів та нас особисто</span>
+                    <div class="results-slider" data-aos="fade-up">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img class="resize-image" src="./img/deposite-history.png" alt=""></div>
+                                <div class="swiper-slide"><img class="resize-image" src="./img/deposite-history.png" alt=""></div>
+                                <div class="swiper-slide"><img class="resize-image" src="./img/deposite-history.png" alt=""></div>
+                                <div class="swiper-slide"><img class="resize-image" src="./img/deposite-history.png" alt=""></div>
+                                <div class="swiper-slide"><img class="resize-image" src="./img/deposite-history.png" alt=""></div>
+                                <div class="swiper-slide"><img class="resize-image" src="./img/deposite-history.png" alt=""></div>
+                                <div class="swiper-slide"><img class="resize-image" src="./img/deposite-history.png" alt=""></div>
+                                <div class="swiper-slide"><img class="resize-image" src="./img/deposite-history.png" alt=""></div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <div class="reviews-container">
+                    <h4 data-aos="fade-down">а це <span>майже</span> справжні відгуки для тих, хто ну дуже сильно
+                        сумнівається:</h4>
+                    <div class="results-slider" data-aos="fade-up">
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide reviews-slide"><img src="./img/reviews-person1.png"
+                                        alt=""><span>Самурай продам гаражіцзьо</span>
+                                    <p>Про*бав усі гроші на Luna, *лять. Друг сказав давай заходь, зараз піднімено
+                                        бабла. Ага. Продав гараж, про*бав гроші. Треба Шогуна взять, тож продаю гараж
+                                        друга.</p>
+                                </div>
+                                <div class="swiper-slide reviews-slide"><img src="./img/reviews-person2.png"
+                                        alt=""><span>така хуліоса</span>
+                                    <p>Так а х*лі? Норм тєма. Піду куплю гараж.</p>
+                                </div>
+                                <div class="swiper-slide reviews-slide"><img src="./img/reviews-person3.png"
+                                        alt=""><span>хочу кушать сам</span>
+                                    <p>Люблю ковбаску піджарену легенько на сковородочці, яєчка жарені. Люблю ше яєчка
+                                        варені. Особливо тоже з хлібцем так піджареним. Та ти шо! Така вкусняшка. Так
+                                        нравиця мені. Так от Шогун люблю ше більше</p>
+                                </div>
+                                <div class="swiper-slide reviews-slide"><img src="./img/reviews-person4.png"
+                                        alt=""><span>луна ту зе муньо</span>
+                                    <p>А шо я, я нічо. В Луну не повірив одразу, тому гараж не продаю. Ковбаски жарені
+                                        теж не люблю. От інша справа крєвєточки і лобстери. Купив Шогун і тепер їм
+                                        лобстери фаршировані крєвєтками ще й на Тархун з льодом залишається</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next2"></div>
+                        <div class="swiper-button-prev2"></div>
+                    </div>
+                </div>
+                <div class="prices-container">
+                    <div class="marquee-infinite left">
+                        <div>
+                            <h1><span>цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span></h1>
+                            <h1><span>цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span></h1>
+                            <h1><span>цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span></h1>
+                            <h1><span>цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span></h1>
+                        </div>
+                    </div>
+                    <div class="prices-blocks" data-aos="fade-down">
+                        <div class="prices-block">
+                            <h5>4 тижні</h5>
+                            <ul>
+                                <li>доступ до програмного забезпечення з телефону та комп’ютера</li>
+                                <li>доступ до боту</li>
+                                <li>доступ до закритого Телеграм-чату</li>
+                                <li>доступ до стратегій з можливістю редагування та ведення угод вручну</li>
+                                <li>доступ до автоматизованих стратегій</li>
+                            </ul>
+                            <div class="actual-price">300 $ / 1 тиждень</div>
+                            <span>Повна сума оплати 1 200 $ / 1 місяць</span>
+                        </div>
+                        <div class="prices-block prices-block-center">
+                            <h5>52 тижні</h5>
+                            <ul>
+                                <li>доступ до програмного забезпечення з телефону та комп’ютера</li>
+                                <li>доступ до боту</li>
+                                <li>доступ до закритого Телеграм-чату</li>
+                                <li>доступ до стратегій з можливістю редагування та ведення угод вручну</li>
+                                <li>доступ до автоматизованих стратегій</li>
+                            </ul>
+                            <div class="top-sale">топ продажу</div>
+                            <div class="actual-price">192 $ / 1 тиждень</div>
+                            <span>Повна сума оплати 10 000 $ / 1 рік</span>
+                        </div>
+                        <div class="prices-block">
+                            <h5>12 тижнів</h5>
+                            <ul>
+                                <li>доступ до програмного забезпечення з телефону та комп’ютера</li>
+                                <li>доступ до боту</li>
+                                <li>доступ до закритого Телеграм-чату</li>
+                                <li>доступ до стратегій з можливістю редагування та ведення угод вручну</li>
+                                <li>доступ до автоматизованих стратегій</li>
+                            </ul>
+                            <div class="actual-price">250 $ / 1 тиждень</div>
+                            <span>Повна сума оплати 3 000 $ / 3 місяці</span>
+                        </div>
+
+                    </div>
+                    <div class="marquee-infinite right">
+                        <div>
+                            <h1><span>цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span></h1>
+                            <h1><span>цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span></h1>
+                            <h1><span>цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span></h1>
+                            <h1><span>цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span><span>цiни</span><span>
+                                    цiни</span><span>цiни</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="broadcast-container">
+                    <div class="broadcast-content" data-aos="fade-down">
+                        <span>Пряма трансляція<br> торгів</span>
+                        <button>переглянути</button>
+                    </div>
+                </div>
+                <div class="telegram-container">
+                    <span data-aos="fade-right">телеграм-чат для своїх</span>
+                    <div class="telegram-buttons" data-aos="flip-right">
+                        <img class="telegram-arrow" src="./img/down-arrow.svg" alt="Arrow">
+                        <a href=""><img src="./img/telegram-icon.svg" alt="Telegram"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-line"></div>
+            <div class="inner-footer">
+                <div class="footer-content">
+                    <div class="footer-logo-block logo-btn" data-aos="flip-right"><img src="./img/footer-logo.png"
+                            alt="Shogun"></div>
+                    <div class="footer-menu" data-aos="fade-down">
+                        <ul>
+                            <li><a class="about-project-btn">про проєкт</a></li>
+                            <li><a class="mechanic-btn">підключення</a></li>
+                            <li><a class="test-btn">тест-період</a></li>
+                            <li><a class="results-btn">результати</a></li>
+                            <li><a class="prices-btn">ціни</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-form" data-aos="fade-left">
+                        <form action="">
+                            <input type="text" placeholder="номер телефону">
+                            <input type="text" placeholder="ім’я">
+                            <input type="text" placeholder="нік телеграм">
+                            <div class="checkboxes">
+                                <label class="container"><span>зателефонувати</span>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container"><span>написати</span>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <button type="submit">надіслати</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 10,
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                "@0.75": {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                "@1.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                },
+                "@1.50": {
+                    slidesPerView: 4,
+                    spaceBetween: 50
+                }
+            }
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            navigation: {
+                nextEl: ".swiper-button-next2",
+                prevEl: ".swiper-button-prev2",
+            },
+            loop: true,
+            autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 1,
+            spaceBetween: 10,
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                "@0.75": {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                "@1.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                },
+                "@1.50": {
+                    slidesPerView: 4,
+                    spaceBetween: 50
+                }
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
