@@ -1074,7 +1074,7 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    gap: 100px;
+    gap: 160px;
 }
 
 .left-test-period-container {
@@ -1095,8 +1095,10 @@ body {
     font-weight: var(--fw-b);
     width: 640px;
     max-width: 640px;
+    line-height: 48px;
     height: 260px;
     max-height: 260px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     background: -o-linear-gradient(297.03deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
     background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
     -webkit-backdrop-filter: blur(42px);
@@ -1174,6 +1176,7 @@ span {
 }
 
 .form-container h5 {
+    margin:0 0 90px 0;
     font-size: var(--fs-40);
     font-weight: var(--fw-b);
     color: var(--main-font-color);
